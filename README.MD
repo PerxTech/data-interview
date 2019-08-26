@@ -17,7 +17,7 @@
            No Of Transaction | Date | Time 
 
 ### 2. Use Case:
-          Client X would like to see the a reward perfomance weekly breakdown along with comparison of previous week.
+          Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
 
    * Expected Output:
           Reward name | reward Redeemed count | Percentage difference as per previous week | Date/ Week 
