@@ -106,6 +106,8 @@ Client X would like to understand its customers behaviour to recommend relevant 
 
 Create a working machine learning (unsupervised model) solution that recommend rewards when input a user_id.
 
+You are free to use any framework including tensorflow, teras, scikit-learn and pytorch.
+
 ### Data Provided
 
 Please use the public [movielens 1M dataset](https://grouplens.org/datasets/movielens/1m)
