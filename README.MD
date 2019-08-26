@@ -7,9 +7,9 @@
 * BigQuery Account.
 * Attached CSV files having related data,import into BigQuery in three diffrent table as mentioned below.    
 * Table and Relation:
- * Campaign (id , name , updated_at)
- * Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
- * Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
+ 1.  Campaign (id , name , updated_at)
+ 2.  Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
+ 3.  Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
 
  ### 1. Use Case: 
 
