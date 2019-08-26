@@ -2,11 +2,11 @@
 
 ## A) SQL Test
 
-* prerequisite:
+### prerequisite:
 
-      * BigQuery Account.
-      * Attached CSV files having related data,import into BigQuery and process the result set.    
-      * Table and Relation:
+* BigQuery Account.
+* Attached CSV files having related data,import into BigQuery in three diffrent table as mentioned below.    
+* Table and Relation:
           Campaign (id , name , updated_at)
           Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
           Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
