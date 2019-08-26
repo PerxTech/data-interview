@@ -6,6 +6,7 @@
 
 * BigQuery Account.
 * Attached CSV files having related data,import into BigQuery in three diffrent table as mentioned below.    
+
 * Table and Relation:
  1.  Campaign (id , name , updated_at)
  2.  Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
