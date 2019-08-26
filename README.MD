@@ -5,26 +5,30 @@
 ### Prerequisite:
 
 * BigQuery Account.
-* Attached CSV files having related data,import into BigQuery in three diffrent table as mentioned below.    
+* Required CSV files are in folder `./data`, import into BigQuery in three diffrent tables as mentioned below. (BigQuery's free quota should be enough for this exercise)
 
 * Table and Relation:
  1.  Campaign (id , name , updated_at)
  2.  Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
  3.  Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
 
- ### 1. Use Case: 
+### Use Case 1:
 
-  Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
+Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
  
    * Expected Output:
            No Of Transaction | Date | Time 
 
-### 2. Use Case:
+### Use Case 2:
          
- Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
+Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
 
    * Expected Output:
           Reward name | reward Redeemed count | Percentage difference as per previous week | Date/ Week 
+
+### Deliverable
+
+BigQuery SQLs with output.
 
 ## B) Analyse HTTP Log for User Sessions
 
