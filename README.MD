@@ -2,7 +2,7 @@
 
 ## A) SQL Test
 
-### prerequisite:
+### Prerequisite:
 
 * BigQuery Account.
 * Attached CSV files having related data,import into BigQuery in three diffrent table as mentioned below.    
@@ -12,13 +12,15 @@
           Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
 
  ### 1. Use Case: 
-        Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
+
+  Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
  
    * Expected Output:
            No Of Transaction | Date | Time 
 
 ### 2. Use Case:
-          Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
+         
+ Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
 
    * Expected Output:
           Reward name | reward Redeemed count | Percentage difference as per previous week | Date/ Week 
