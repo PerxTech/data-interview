@@ -1,10 +1,46 @@
 # Perx Data Interview
 
-## SQL Test
+## A) SQL Test
 
-TODO.
+Database tool (BigQuery public table )
 
-## Analyse HTTP Log for User Sessions
+Show the popular engagement day and time between specific date (Database stored data is in UTC format and input will be in  SGT. 
+
+
+Output format :
+
+     Transactions | date | time 
+
+
+Source Tables  :
+
+Campaign 
+
+Reward_camapigns
+
+Reward_transactions
+
+
+2.   Show the performance of a reward compared with previous week.
+
+
+Output format :
+
+
+ Reward name |  redeemed count |   Percentage as previous week  | date/ week 	
+
+
+
+Source Tables  :
+
+Campaign 
+
+Reward_camapigns
+
+Reward_transactions
+
+
+## B) Analyse HTTP Log for User Sessions
 
 ### Use Case
 
@@ -60,7 +96,7 @@ Inside the jupyter notebook, it's free to use any python library.
 
 Even though the provided dataset is small, writing code that can accommodate very large dataset is preferred. Using frameworks like apache beam is encouraged.
 
-## Machine Learning for Recommendation Task
+## C) Machine Learning for Recommendation Task
 
 ### Use Case
 
