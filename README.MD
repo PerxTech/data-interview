@@ -2,43 +2,25 @@
 
 ## A) SQL Test
 
-Database tool (BigQuery public table )
+* prerequisite:
+      BigQuery Account.
+      Attached CSV files having related data,import into BigQuery and process the result set.
+      Table and Relation:
+          Campaign (id , name , updated_at)
+          Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
+          Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
 
-Show the popular engagement day and time between specific date (Database stored data is in UTC format and input will be in  SGT. 
+ ### 1. Use Case: 
+        Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
+ 
+   * Expected Output:
+           No Of Transaction | Date | Time 
 
+### 2. Use Case:
+          Client X would like to see the a reward perfomance weekly breakdown along with comparison of previous week.
 
-Output format :
-
-     Transactions | date | time 
-
-
-Source Tables  :
-
-Campaign 
-
-Reward_camapigns
-
-Reward_transactions
-
-
-2.   Show the performance of a reward compared with previous week.
-
-
-Output format :
-
-
- Reward name |  redeemed count |   Percentage as previous week  | date/ week 	
-
-
-
-Source Tables  :
-
-Campaign 
-
-Reward_camapigns
-
-Reward_transactions
-
+   * Expected Output:
+          Reward name | reward Redeemed count | Percentage difference as per previous week | Date/ Week 
 
 ## B) Analyse HTTP Log for User Sessions
 
