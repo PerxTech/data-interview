@@ -38,8 +38,8 @@ Client X would like to find out the campaign performance for a certain time fram
 
 A campaign may results in http requests including:
 
-* GET request to `/campaign/{{id}}`
-* POST request to `/reward/{{id}}` (get a reward issued to the user)
+* GET request to `/campaigns/{{id}}`
+* POST request to `/rewards/{{id}}` (get a reward issued to the user)
 
 A session window for a user is defined as: within which there's activity for a user (http request for the user) and gap between each activity is less than 5 mins.
 
@@ -61,7 +61,7 @@ Need to provide a report that has following fieds:
 
 #### Data Provided
 
-HTTP log is provided as text file with each line as one entry. Fields in the log entry are delimited by space with following format:
+HTTP log is provided as text file with each line as one entry, it's saved in `data/http_log.txt`. Fields in the log entry are delimited by space with following format:
 
 ```
 timestamp http_method http_path user_id
@@ -74,9 +74,9 @@ The following list describes the fields of an access log entry.
 * http_path: The http request path
 * user_id: User identifier
 
-Mapping of campaign and reward is provided as a csv file.
+Mapping of campaign and reward is provided as a csv file in `data/campaign_reward_mapping.csv`.
 
-Campaign and reward is one to many relationship.
+Campaign and reward is many to many relationship.
 
 ### Deliverable
 
