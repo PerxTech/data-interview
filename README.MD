@@ -43,7 +43,7 @@ A campaign may results in http requests including:
 
 A session window for a user is defined as: within which there's activity for a user (http request for the user) and gap between each activity is less than 5 mins.
 
-Need to provide a report that has following fieds:
+Need to provide a report that has following fields:
 
 * user_id
 * session_start (timestamp)
