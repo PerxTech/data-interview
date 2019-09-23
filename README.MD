@@ -14,17 +14,17 @@
 
 ### Use Case 1:
 
-Client X whould like to find the most popular engagement day and time between specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign
+Client X would like to identify the most popular engagement day and time between a specific date range (Database stored data is in UTC format and input will be in SGT) for a Campaign.
  
    * Expected Output:
            No Of Transaction | Date | Time 
 
 ### Use Case 2:
          
-Client X would like to see the reward performance weekly breakdown along with comparison of previous week.
+Client X would like to see the weekly breakdown of reward performance along with comparison of previous week.
 
    * Expected Output:
-          Reward name | reward Redeemed count | Percentage difference as per previous week | Date/ Week 
+          Reward name | Reward Redeemed count | Percentage difference as per previous week | Date/ Week 
 
 ### Deliverable
 
@@ -34,16 +34,16 @@ BigQuery SQLs with output.
 
 ### Use Case
 
-Client X would like to find out the campaign performance for a certain time frame from HTTP log.
+Client X would like to find out about the campaign performance for a certain time frame from HTTP log.
 
-A campaign may results in http requests including:
+A campaign may result in http requests including:
 
 * GET request to `/campaigns/{{id}}`
 * POST request to `/rewards/{{id}}` (get a reward issued to the user)
 
 A session window for a user is defined as: within which there's activity for a user (http request for the user) and gap between each activity is less than 5 mins.
 
-Need to provide a report that has following fieds:
+Need to provide a report that has following fields:
 
 * user_id
 * session_start (timestamp)
@@ -55,7 +55,7 @@ Need to provide a report that has following fieds:
 ### Tasks
 
 1. Create an avro schema for the HTTP log and convert the http log data provided to avro format
-2. Load the avro data into a bigquery table
+2. Load the avro data into a Bigquery table
 3. Load the campaign and reward mapping csv into a bigquery table
 4. Do the processing to create the result
 
@@ -80,9 +80,9 @@ Campaign and reward is many to many relationship.
 
 ### Deliverable
 
-The avro schema need to be created manually as avsc file. All other tasks need to be encapsulated in a jupyter notebook and shared via a private github repo.
+The avro schema needs to be created manually as avsc file. All other tasks need to be encapsulated in a jupyter notebook and shared via a private github repo.
 
-Inside the jupyter notebook, it's free to use any python library.
+Within jupyter notebook, you are free to use any python library.
 
 Even though the provided dataset is small, writing code that can accommodate very large dataset is preferred. Using frameworks like apache beam is encouraged.
 
@@ -104,4 +104,4 @@ Please use the public [movielens 1M dataset](https://grouplens.org/datasets/movi
 
 ### Deliverable
 
-A command line application that can be invoked with user_id as parameter and output recommended movie ids. Or even better a simple rest service that packaged as docker image that expose a simple rest API that returns recommended movie ids for a user specified.
+A command line application that can be invoked with user_id as parameter and output recommended movie ids. Or a simple REST service that is packaged as docker image that expose a simple rest API that returns recommended movie ids for a user specified.
