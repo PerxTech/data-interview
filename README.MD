@@ -4,8 +4,8 @@
 
 ### Prerequisite:
 
-* BigQuery Account.
-* Required CSV files are in folder `./data`, import into BigQuery in three diffrent tables as mentioned below. (BigQuery's free quota should be enough for this exercise)
+* Redshift (https://aws.amazon.com/redshift/free-trial/)
+* Required CSV files are in folder `./data`, import into Redshift in three diffrent tables as mentioned below. (Redshift's free trial should be enough for this exercise)
 
 * Table and Relation:
  1.  Campaign (id , name , updated_at)
@@ -28,7 +28,7 @@ Client X would like to see the weekly breakdown of reward performance along with
 
 ### Deliverable
 
-BigQuery SQLs with output.
+SQLs with output.
 
 ## B) Analyse HTTP Log for User Sessions
 
@@ -55,8 +55,8 @@ Need to provide a report that has following fields:
 ### Tasks
 
 1. Create an avro schema for the HTTP log and convert the http log data provided to avro format
-2. Load the avro data into a Bigquery table
-3. Load the campaign and reward mapping csv into a bigquery table
+2. Load the avro data into a Redshift table
+3. Load the campaign and reward mapping csv into a redshift table
 4. Do the processing to create the result
 
 #### Data Provided
