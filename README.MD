@@ -9,7 +9,7 @@
 
 * Table and Relation:
  1.  Campaign (id , name , updated_at)
- 2.  Reward_camapigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
+ 2.  Reward_campaigns( id , Reward_name , updated_at, campaign_id(FK(campaign.id)))
  3.  Reward_transactions(id, status, updated_at, Reward_camapigns_id(FK(Reward_camapigns.id)) )
 
 ### Use Case 1:
