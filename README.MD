@@ -112,7 +112,7 @@ A command line application that can be invoked with user_id as parameter and out
 
 ### Use Case
 
-Client X see the BI Dashboard to anaylyse user engagament and Rewards insights.
+Client X would like to see the BI Dashboard to anaylyse user engagament and Rewards insights.
 
 ### Specification
 
