@@ -89,6 +89,7 @@ Even though the provided dataset is small, writing code that can accommodate ver
 
 # Perx Data Interview-2 :: Data Analysts/ Data Scientist 
 
+## B) Data Analysis and visualization Task
 
 ### Use Case
 
@@ -106,7 +107,7 @@ Please use the file /data/interview_test_voucher_Data.csv that has reward detail
 
 A working BI Dashboard that show User enagagement Insights and reward performace/engagaments.
 
-## C) Machine Learning for Recommendation Task
+## B) Machine Learning for Recommendation Task
 
 ### Use Case
 
