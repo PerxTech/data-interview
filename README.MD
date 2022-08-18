@@ -89,23 +89,23 @@ Even though the provided dataset is small, writing code that can accommodate ver
 
 # Perx Data Interview-2 :: Data Analysts/ Data Scientist 
 
-## B) Data Analysis and visualization Task
+## B) Data Analysis and visualisation Task
 
 ### Use Case
 
-Client X would like to see the BI Dashboard to anaylyse user engagament and Rewards insights.
+Client X would like to see the BI Dashboard to analyses user engagement and Rewards insights.
 
 ### Specification
 
- Create a BI Dashboard to analyse User enagagement and Reward insights 
+ Create a BI Dashboard to analyse User engagement and Reward insights 
 
 ### Data Provided
 
-Please use the file /data/interview_test_voucher_Data.csv that has reward detailed and the associated voucher details. Its also has user details who recived voucher.
+Please use the file /data/interview_test_voucher_Data.csv that has reward detailed and the associated voucher details. Its also has user details who received voucher.
 
 ### Deliverable
 
-A working BI Dashboard that show User enagagement Insights and reward performace/engagaments.
+A working BI Dashboard that show User engagement Insights and reward performance/engagements.
 
 ## B) Machine Learning for Recommendation Task
 
