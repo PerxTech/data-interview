@@ -86,6 +86,26 @@ Within jupyter notebook, you are free to use any python library.
 
 Even though the provided dataset is small, writing code that can accommodate very large dataset is preferred. Using frameworks like apache beam is encouraged.
 
+
+# Perx Data Interview-2 :: Data Analysts/ Data Scientist 
+
+
+### Use Case
+
+Client X would like to see the BI Dashboard to anaylyse user engagament and Rewards insights.
+
+### Specification
+
+ Create a BI Dashboard to analyse User enagagement and Reward insights 
+
+### Data Provided
+
+Please use the file /data/interview_test_voucher_Data.csv that has reward detailed and the associated voucher details. Its also has user details who recived voucher.
+
+### Deliverable
+
+A working BI Dashboard that show User enagagement Insights and reward performace/engagaments.
+
 ## C) Machine Learning for Recommendation Task
 
 ### Use Case
@@ -107,21 +127,3 @@ Please use the public [movielens 1M dataset](https://grouplens.org/datasets/movi
 A command line application that can be invoked with user_id as parameter and output recommended movie ids. Or a simple REST service that is packaged as docker image that expose a simple rest API that returns recommended movie ids for a user specified.
 
 
-# Perx Data Interview-2 :: Data Analysts/ Data Scientist 
-
-
-### Use Case
-
-Client X would like to see the BI Dashboard to anaylyse user engagament and Rewards insights.
-
-### Specification
-
- Create a BI Dashboard to analyse User enagagement and Reward insights 
-
-### Data Provided
-
-Please use the file /data/interview_test_voucher_Data.csv that has reward detailed and the associated voucher details. Its also has user details who recived voucher.
-
-### Deliverable
-
-A working BI Dashboard that show User enagagement Insights and reward performace/engagaments.
