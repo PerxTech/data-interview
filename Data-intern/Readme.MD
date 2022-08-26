@@ -29,3 +29,22 @@ Client X would like to see the weekly breakdown of reward performance along with
 ### Deliverable
 
 SQLs with output.
+
+## A) Data Analysis Test 
+
+### Prerequisite:
+
+* Required CSV files are in folder `.Data-intern/Sample-data/covid_19_complete_data.csv.zip`, 
+* Data Info:
+ 1.   It has details of Covid cases
+
+### Use Case 1:
+
+Client X would like see some useful insights out of these raw data.
+ 
+   * Expected Output:
+           Some interesting insights
+
+### Deliverable
+
+Insights and graphs 
