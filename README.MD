@@ -134,11 +134,17 @@ Recommended to have a orchestration application, either localhost or docker, to 
 
 ### Use Case
 Please provide one use case with full process of data scientist that you are free to come up with. In order to show the full scale of a machine learning and AI project.
-One scenario is having the segmentation with unsupervised model. The other scenario use data to do the prediction of the future result based on the data. We mostly deal with structure data instead of unstructure data. Therefore, it's great to have structure data case.
+One scenario is having the segmentation with unsupervised model.
+
+The other scenario use data to do the prediction of the future result based on the data. We mostly deal with structure data instead of unstructure data. Therefore, it's great to have structure data case.
 
 ### Deliverable
 As the case of this is focus completely on Data Scientist. Please delivers the whole full code base with the data you provided. It needs to follow the data preparation, data cleansing, dealing with filesystem and database (optional to your choice), testing analysis of model, full-scale model selection, accuracy analysis, hyperparameter tuning. 
+
 Full code in production-wise set up with clean code and tests.
+
 Deployment method to production in one of the platform you suggested. We prefer AWS sagemaker if possible to you, but databricks, azure machine learning or gcp machine learning are also welcome.
+
 Full architecture wise to use the model and retrain program. You are free to pick up the one you feel most comforatble like a backend method, cloud functions or schedule data update, ETL process and then retrain and how to use them integrated with existed backend system.
+
 Bonus: Infrastructure as Code is really recommended for deployment.
