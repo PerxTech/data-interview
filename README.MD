@@ -29,6 +29,7 @@ Client X would like to see the weekly breakdown of reward performance along with
 ### Deliverable
 
 SQLs with output.
+It's better to show all the steps in the data CRUD processing using parallel computational.
 
 ## B) Analyse HTTP Log for User Sessions
 
@@ -127,4 +128,17 @@ Please use the public [movielens 1M dataset](https://grouplens.org/datasets/movi
 
 A command line application that can be invoked with user_id as parameter and output recommended movie ids. Or a simple REST service that is packaged as docker image that expose a simple rest API that returns recommended movie ids for a user specified.
 
+Recommended to have a orchestration application, either localhost or docker, to help update the data as well as retrain the model and finally update to the latest model in order to support the recommendation machenism within, which links to the core application itself. Draft CI/CD architecture for this application then.
 
+# Perx Data Interview-3 :: Data Scientist Full Scale
+
+### Use Case
+Please provide one use case with full process of data scientist that you are free to come up with. In order to show the full scale of a machine learning and AI project.
+One scenario is having the segmentation with unsupervised model. The other scenario use data to do the prediction of the future result based on the data. We mostly deal with structure data instead of unstructure data. Therefore, it's great to have structure data case.
+
+### Deliverable
+As the case of this is focus completely on Data Scientist. Please delivers the whole full code base with the data you provided. It needs to follow the data preparation, data cleansing, dealing with filesystem and database (optional to your choice). 
+Full code in production-wise set up with clean and tests.
+Deployment method to production in one of the platform you suggested. We prefer AWS sagemaker if possible to you. 
+Full architecture wise to use the model and retrain program. You are free to pick up the one you feel most comforatble like a backend method, cloud functions or schedule data update, ETL process and then retrain and how to use them integrated with existed backend system.
+Bonus: Infrastructure as Code is really recommended for deployment.
